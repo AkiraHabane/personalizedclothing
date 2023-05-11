@@ -1,0 +1,9 @@
+2023-05-10T12:36:17+00:00 CRITICAL Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\personalizedclothing\wp-content\plugins\ocean-extra\includes\themepanel\theme-panel.php:350
+Stack trace:
+#0 C:\xampp\htdocs\personalizedclothing\wp-includes\class-wp-hook.php(308): Ocean_Extra_New_Theme_Panel->child_theme_install('')
+#1 C:\xampp\htdocs\personalizedclothing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\personalizedclothing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\personalizedclothing\wp-admin\admin-ajax.php(188): do_action('wp_ajax_oceanwp...')
+#4 {main}
+  thrown in C:\xampp\htdocs\personalizedclothing\wp-content\plugins\ocean-extra\includes\themepanel\theme-panel.php on line 350
+
