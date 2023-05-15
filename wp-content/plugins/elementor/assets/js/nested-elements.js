@@ -1,4 +1,4 @@
-/*! elementor - v3.13.1 - 09-05-2023 */
+/*! elementor - v3.13.2 - 11-05-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -252,8 +252,8 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /******/ 			// return url for filenames not based on template
 /******/ 			if (chunkId === "modules_nested-elements_assets_js_editor_module_js") return "765551b6f9005a42004c.bundle.js";
 /******/ 			if (chunkId === "vendors-node_modules_prop-types_index_js-node_modules_babel_runtime_helpers_defineProperty_js-fe2f09") return "468f41fa91dee0f38b7d.bundle.js";
-/******/ 			if (chunkId === "modules_nested-elements_assets_js_editor_nested-element-types-base_js") return "1be27d786af272b43945.bundle.js";
-/******/ 			if (chunkId === "modules_nested-elements_assets_js_editor_views_view_js") return "41242dd2abc7917a4e40.bundle.js";
+/******/ 			if (chunkId === "modules_nested-elements_assets_js_editor_nested-element-types-base_js") return "adea2c8e99ec77c3e05d.bundle.js";
+/******/ 			if (chunkId === "modules_nested-elements_assets_js_editor_views_view_js") return "96124ada3ba05750eec1.bundle.js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
