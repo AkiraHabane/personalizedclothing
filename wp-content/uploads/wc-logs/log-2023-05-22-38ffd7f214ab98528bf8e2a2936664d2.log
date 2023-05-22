@@ -1,0 +1,96 @@
+2023-05-22T16:07:05+00:00 INFO [Processing Payment] Payment method response Array
+(
+    [id] => pm_kTUnTPxecvnteXyLXUM6Nkd9
+    [type] => payment_method
+    [attributes] => Array
+        (
+            [livemode] => 
+            [type] => gcash
+            [billing] => Array
+                (
+                    [address] => Array
+                        (
+                            [city] => Caloocan
+                            [country] => PH
+                            [line1] => Lot 21 Block 29 Pegasus St. Phase 2 Palmera Springs, Bagumbong
+                            [line2] => Barangay 173
+                            [postal_code] => 1400
+                            [state] => 00
+                        )
+
+                    [email] => sb-itfjg26052235@personal.example.com
+                    [name] => John Doe
+                    [phone] => 09208067060
+                )
+
+            [created_at] => 1684771514
+            [updated_at] => 1684771514
+            [details] => 
+            [metadata] => 
+        )
+
+)
+
+2023-05-22T16:07:06+00:00 INFO [Processing Payment] Attach payment method response Array
+(
+    [id] => pi_pFicC3mGypExbcXY7Har1Pj2
+    [type] => payment_intent
+    [attributes] => Array
+        (
+            [amount] => 30000
+            [capture_type] => automatic
+            [client_key] => pi_pFicC3mGypExbcXY7Har1Pj2_client_kDEGAVcyQig8NjMfhxEAC96n
+            [currency] => PHP
+            [description] => CustomKlothing - 1344
+            [livemode] => 
+            [statement_descriptor] => Custom Klothing
+            [status] => awaiting_next_action
+            [last_payment_error] => 
+            [payment_method_allowed] => Array
+                (
+                    [0] => grab_pay
+                    [1] => billease
+                    [2] => paymaya
+                    [3] => gcash
+                    [4] => dob
+                    [5] => card
+                    [6] => atome
+                )
+
+            [payments] => Array
+                (
+                )
+
+            [next_action] => Array
+                (
+                    [type] => redirect
+                    [redirect] => Array
+                        (
+                            [url] => https://test-sources.paymongo.com/sources?id=src_j4ivZgFDLnANCCgndWrHHdgH
+                            [return_url] => http://localhost/personalizedclothing/?agent=cynder_woocommerce&intent=pi_pFicC3mGypExbcXY7Har1Pj2&order=1344&payment_intent_id=pi_pFicC3mGypExbcXY7Har1Pj2&version=1.12.2&wc-api=cynder_paymongo_catch_redirect
+                        )
+
+                )
+
+            [payment_method_options] => Array
+                (
+                    [card] => Array
+                        (
+                            [request_three_d_secure] => any
+                        )
+
+                )
+
+            [metadata] => Array
+                (
+                    [agent] => cynder_woocommerce
+                    [version] => 1.12.2
+                )
+
+            [setup_future_usage] => 
+            [created_at] => 1684771513
+            [updated_at] => 1684771515
+        )
+
+)
+
